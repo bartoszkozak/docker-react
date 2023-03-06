@@ -25,5 +25,5 @@ jobs:
           environment_name: Bartoszapp-env
           existing_bucket_name: elasticbeanstalk-eu-west-1-979213071888
           region: eu-west-1
-          version_label: "Sample Application"
+          version_label: ${{ github.sha }}
           deployment_package: deploy.zip
